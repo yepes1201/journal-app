@@ -22,7 +22,6 @@ export const LoginScreen = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (isFormValid) {
-      console.log("log");
       dispatch(startLoginEmailPassword(email, password));
     }
   };
