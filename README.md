@@ -2,7 +2,7 @@
 
 This project was built using ReactJS (hooks), Redux and Firebase.
 
-## Link at (link)
+## Link at https://journal-app-danielyepes.netlify.app/auth/login
 
 - Currently available for web
 
