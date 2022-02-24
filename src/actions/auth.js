@@ -66,14 +66,12 @@ export const startGoogleLogin = () => {
       .auth()
       .signInWithPopup(googleAuthProvider)
       .then(({ user }) => {
-        console.log(user);
         dispatch(login(user.uid, user.displayName));
 
         dispatch(finishLoading());
       })
       .catch((e) => {
         dispatch(finishLoading());
-        console.log(e);
       });
   };
 };
